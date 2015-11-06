@@ -1,3 +1,7 @@
+# Asset folders
+images/
+sprites/
+
 # Object files
 *.o
 *.ko

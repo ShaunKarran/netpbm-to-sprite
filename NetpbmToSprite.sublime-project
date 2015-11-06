@@ -1,0 +1,20 @@
+{
+	"folders":
+	[
+		{
+			"path": "bin"
+		},
+		{
+			"path": "images"
+		},
+		{
+			"path": "include"
+		},
+		{
+			"path": "sprites"
+		},
+		{
+			"path": "src"
+		}
+	]
+}

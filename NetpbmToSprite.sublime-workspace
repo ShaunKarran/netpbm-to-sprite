@@ -1,0 +1,545 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pi",
+				"pixelsWritten"
+			],
+			[
+				"by",
+				"bytesPerPixel"
+			],
+			[
+				"spri",
+				"spriteFile"
+			],
+			[
+				"in",
+				"inputDir"
+			],
+			[
+				"ui",
+				"uint8_t"
+			],
+			[
+				"uint",
+				"uint32_t"
+			],
+			[
+				"FO",
+				"FOPEN_ERROR"
+			],
+			[
+				"spr",
+				"spriteFile"
+			],
+			[
+				"uin",
+				"uint8_t"
+			],
+			[
+				"img",
+				"imgSize"
+			],
+			[
+				"u",
+				"uint32_t"
+			],
+			[
+				"fil",
+				"fileName"
+			],
+			[
+				"ima",
+				"imageData"
+			],
+			[
+				"out",
+				"outputFile"
+			],
+			[
+				"inpu",
+				"inputFile"
+			],
+			[
+				"dat",
+				"dataLength"
+			],
+			[
+				"magic",
+				"magicNumber"
+			],
+			[
+				"image",
+				"imageSize"
+			],
+			[
+				"S",
+				"SOURCE_DIR"
+			],
+			[
+				"o",
+				"o"
+			],
+			[
+				"I",
+				"INC_DIRS"
+			],
+			[
+				"OB",
+				"OBJECTS"
+			],
+			[
+				"C",
+				"CXXFILES"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/netpbmtosprite.cpp",
+			"settings":
+			{
+				"buffer_size": 1792,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/libnetpbm.cpp",
+			"settings":
+			{
+				"buffer_size": 3569,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/libsprite.cpp",
+			"settings":
+			{
+				"buffer_size": 2739,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "include/libnetpbm.h",
+			"settings":
+			{
+				"buffer_size": 319,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "include/libsprite.h",
+			"settings":
+			{
+				"buffer_size": 409,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sprites/colour_tiny.h",
+			"settings":
+			{
+				"buffer_size": 1682,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/shaunkarran/Projects/NetpbmToSprite/sprites/colour_tiny.h",
+		"/home/shaunkarran/Projects/NetpbmToSprite/include/libnetpbm.h",
+		"/home/shaunkarran/Projects/NetpbmToSprite/src/libsprite.cpp",
+		"/home/shaunkarran/Projects/NetpbmToSprite/sprites/sprite_test.h",
+		"/home/shaunkarran/Projects/NetpbmToSprite/src/libnetpbm.cpp",
+		"/home/shaunkarran/Projects/GeoWars/Game/Game.ino",
+		"/home/shaunkarran/Projects/NetpbmToSprite/sprites/colour_large.h",
+		"/home/shaunkarran/Projects/NetpbmToSprite/sprites/smile.h",
+		"/home/shaunkarran/Projects/GeoWars/Game/LCD_5110.cpp",
+		"/home/shaunkarran/Projects/NetpbmToSprite/makefile",
+		"/home/shaunkarran/Projects/NetpbmToSprite/src/libnetpbm_test.cpp",
+		"/etc/apt/sources.list",
+		"/home/shaunkarran/Projects/NetpbmToSprite/src/file_io.cpp",
+		"/home/shaunkarran/Projects/NetpbmToSprite/src/main.cpp",
+		"/home/shaunkarran/Projects/NetpbmToSprite/include/bitwise.h",
+		"/home/shaunkarran/Projects/NetpbmToSprite/sprites/tank.h",
+		"/home/shaunkarran/Projects/NetpbmToSprite/sprites/colour_test.h",
+		"/home/shaunkarran/Projects/NetpbmToSprite/images/smile.pbm",
+		"/home/shaunkarran/Projects/NetpbmToSprite/bin/test.h",
+		"/home/shaunkarran/Projects/NetpbmToSprite/src/main.c",
+		"/home/shaunkarran/Projects/NetpbmToSprite/include/file_io.h",
+		"/usr/include/c++/4.8/array"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"width",
+			"bytesPerLine",
+			"tempWidth",
+			"inputDir",
+			"char",
+			"imageHeight",
+			"imgWidth",
+			"imageWidth",
+			"imageData",
+			"int",
+			"ppm",
+			"precision",
+			"width",
+			"dataLength",
+			"pbm",
+			"ppm",
+			"uint8_t",
+			"imageData",
+			"char",
+			"imageData",
+			"magicNumber",
+			"std",
+			"ju",
+			"hu",
+			"%d",
+			"imageData",
+			"imageFile",
+			"image",
+			"imageSize",
+			"dataLength",
+			"imageSize",
+			"uint8_t",
+			"image_data",
+			"define",
+			"pgm",
+			"data_length",
+			"uint8_t",
+			"max_value",
+			"magic_number",
+			"image_file",
+			"char",
+			"int",
+			"char",
+			"maxValue",
+			"char",
+			"int",
+			"write_sprite",
+			"FILE_IO",
+			"_FILE_IO_H",
+			"int",
+			"int16_t",
+			"int",
+			"char",
+			"int16_t",
+			"int",
+			"}",
+			";",
+			"set_bit",
+			"get_bit",
+			"_bitwise_h",
+			"pin",
+			"reg",
+			"SOURCE_DIR",
+			"CPPFLAGS",
+			"INC_DIRS",
+			"CPPFLAGS",
+			".",
+			"OBJECTS",
+			"C_FILES",
+			"BUILDDIR",
+			"DIR",
+			"SOURCEDIR",
+			"HEADER_ERROR"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/netpbmtosprite.cpp",
+					"settings":
+					{
+						"buffer_size": 1792,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								716,
+								716
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 255.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/libnetpbm.cpp",
+					"settings":
+					{
+						"buffer_size": 3569,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2829,
+								2829
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/libsprite.cpp",
+					"settings":
+					{
+						"buffer_size": 2739,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1035,
+								1035
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "include/libnetpbm.h",
+					"settings":
+					{
+						"buffer_size": 319,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								319,
+								319
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "include/libsprite.h",
+					"settings":
+					{
+						"buffer_size": 409,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								409,
+								409
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "sprites/colour_tiny.h",
+					"settings":
+					{
+						"buffer_size": 1682,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								265,
+								265
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 188.0,
+	"status_bar_visible": true
+}
