@@ -25,6 +25,7 @@ sprites/
 *.dylib
 
 # Executables
+bin/
 *.exe
 *.out
 *.app
