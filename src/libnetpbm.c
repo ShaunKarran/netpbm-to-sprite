@@ -49,8 +49,10 @@ char read_netpbm(char *file_name, struct Image *image)
 
     fgetc(file); /* Move past new line at end of header. */
 
-    /* Allocate enough memory for the image data to be read into. */
-    image->data = malloc_2d(image->height, image->width, sizeof(char));
+    /* Allocate enough memory for the image data to be read into.
+     * (size / height) gives image width in number of bytes.
+     */
+    image->data = malloc_2d(image->height, image->size / image->height, sizeof(char));
     if (image->data == NULL) {
         return 0;
     }

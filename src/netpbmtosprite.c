@@ -32,15 +32,11 @@ int main(int argc, char *argv[])
         exit(EXIT_FAILURE);
     }
 
-    if (write_netpbm(argv[2], &image) == 0) {
-        exit(EXIT_FAILURE);
+    printf("\nWriting sprite %s\n", basename(argv[2]));
+
+    if (write_sprite(argv[2], &image) == 0) {
+     exit(EXIT_FAILURE);
     }
-
-    // printf("\nWriting sprite %s\n", basename(argv[2]));
-
-    // if (write_sprite(argv[2], &image) == 0) {
-    //  exit(EXIT_FAILURE);
-    // }
 
     printf("\nConversion of %s completed successfully.\n\n", basename(argv[1]));
 

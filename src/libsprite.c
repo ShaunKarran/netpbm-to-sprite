@@ -60,9 +60,9 @@ static void write_ppm_sprite(FILE *file, struct Image *image)
         fprintf(file, "\t");
 
         for (int j = 0; j < image->width * 3; j += 3) { /* 3 bytes per pixel */
-            r = image->data[i * (image->width * 3) + j];
-            g = image->data[i * (image->width * 3) + j + 1];
-            b = image->data[i * (image->width * 3) + j + 2];
+            r = image->data[i][j];
+            g = image->data[i][j + 1];
+            b = image->data[i][j + 2];
             colour = rgb888_to_rgb565(r, g, b);
 
             fprintf(file, "0x%04hX, ", colour);
@@ -81,7 +81,7 @@ static void write_pgm_sprite(FILE *file, struct Image *image)
         fprintf(file, "\t");
 
         for (int j = 0; j < image->width; j++) {
-            fprintf(file, "0x%02hhX, ", image->data[i * image->width + j]);
+            fprintf(file, "0x%02hhX, ", image->data[i][j]);
         }
         fprintf(file, "\n");
     }
@@ -99,7 +99,7 @@ static void write_pbm_sprite(FILE *file, struct Image *image)
         fprintf(file, "\t");
 
         for (int j = 0; j < width; j++) {
-            fprintf(file, "0x%02hhX, ", image->data[i * width + j]);
+            fprintf(file, "0x%02hhX, ", image->data[i][j]);
         }
         fprintf(file, "\n");
     }

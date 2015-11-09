@@ -18,11 +18,13 @@
 /* Type Definitions ------------------------------------------------------------------ */
 struct Image
 {
-    char            name[64];
+    /* NetPBM format parameters. */
     char            format;   /* File format (4 = pbm, 5 = pgm, 6 = ppm). */
     unsigned short  width;
     unsigned short  height;
     unsigned short  depth;
+
+    char            name[64];
     unsigned int    size;     /* In bytes. */
     unsigned char   **data;
 };
