@@ -1,9 +1,9 @@
 
 /* --------------------------------------------------------------------------------------
- *	Program:		PBMToSpriteConverter
- *	Purpose:		Converting from image format to sprite.
- *	Author(s):		Shaun Karran
- *	Created:		November 2014
+ *  Program:        PBMToSpriteConverter
+ *  Purpose:        Converting from image format to sprite.
+ *  Author(s):      Shaun Karran
+ *  Created:        November 2014
  * ----------------------------------------------------------------------------------- */
 
 #ifndef _LIBSPRITE_H_

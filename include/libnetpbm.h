@@ -1,9 +1,9 @@
 
 /* --------------------------------------------------------------------------------------
- *	Program:		PBMToSpriteConverter
- *	Purpose:		File input/output functions.
- *	Author(s):		Shaun Karran
- *	Created:		November 2014
+ *  Program:        PBMToSpriteConverter
+ *  Purpose:        File input/output functions.
+ *  Author(s):      Shaun Karran
+ *  Created:        November 2014
  * ----------------------------------------------------------------------------------- */
 
 #ifndef _LIBNETPBM_H_
@@ -18,13 +18,13 @@
 /* Type Definitions ------------------------------------------------------------------ */
 struct Image
 {
-	char     	 name[64];
-	char 	 	 format; /* File format (4 = pbm, 5 = pgm, 6 = ppm). */
-	unsigned int width;
-	unsigned int height;
-	unsigned int depth;
-	unsigned int size;  /* In bytes. */
-	char  		 *data;
+    char            name[64];
+    char            format;   /* File format (4 = pbm, 5 = pgm, 6 = ppm). */
+    unsigned short  width;
+    unsigned short  height;
+    unsigned short  depth;
+    unsigned int    size;     /* In bytes. */
+    unsigned char   **data;
 };
 
 /* Defines --------------------------------------------------------------------------- */
@@ -43,5 +43,7 @@ static void skip_comments(FILE *file);
 static void move_to_next_line(FILE *file);
 
 static void remove_extension(char *file_name);
+
+static void * malloc_2d(unsigned int rows, unsigned int columns, size_t size);
 
 #endif /* _LIBNETPBM_H_ */
